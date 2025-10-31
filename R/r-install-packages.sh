@@ -1,5 +1,7 @@
 #!/bin/sh
+
 # Ce script installe la liste des packages du fichier inputs/requirements-r
+# Paramètres attendus : None
 
 # Cloner le repo
 REPO_GIT=datalab-init-scripts

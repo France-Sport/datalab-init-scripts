@@ -1,5 +1,7 @@
 #!/bin/sh
+
 # Ce script installe le driver ODBC 18
+# Paramètres attendus : None
 
 # Installer un driver ODBC pour SQL Server
 sudo apt-get update
