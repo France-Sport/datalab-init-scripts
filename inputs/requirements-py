@@ -1,1 +1,16 @@
-pandas
+dash
+dash-bootstrap-components
+Flask-Session
+openpyxl
+pdfplumber
+PyJWT
+PyMuPDF
+pyodbc
+streamlit
+streamlit-cookies-controller
+streamlit_extras
+streamlit_option_menu
+streamlit-pdf-viewer
+streamlit_searchbox
+unidecode
+utils

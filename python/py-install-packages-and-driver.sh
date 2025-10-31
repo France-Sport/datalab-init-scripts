@@ -18,4 +18,4 @@ general/install-driver-sqlserver.sh
 
 # Supprimer le repo
 cd ..
-rm -d $REPO_GIT
+rm -rf $REPO_GIT
