@@ -14,4 +14,8 @@ cd ${REPO_GIT}
 Rscript -e "install.packages(readLines('inputs/requirements-r'), Ncpus = 2)"
 
 # Installer un driver pour SQL Server
-input/install-driver-sqlserver.sh
+general/install-driver-sqlserver.sh
+
+# Supprimer le repo
+cd ..
+rm -d $REPO_GIT

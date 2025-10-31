@@ -11,3 +11,7 @@ cd ${REPO_GIT}
 
 # Installer des packages R
 Rscript -e "install.packages(readLines('inputs/requirements-r'), Ncpus = 2)"
+
+# Supprimer le repo
+cd ..
+rm -d $REPO_GIT

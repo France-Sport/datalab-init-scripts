@@ -11,3 +11,7 @@ cd ${REPO_GIT}
 
 # Installer des packages python
 pip install -r inputs/requirements-py
+
+# Supprimer le repo
+cd ..
+rm -d $REPO_GIT
