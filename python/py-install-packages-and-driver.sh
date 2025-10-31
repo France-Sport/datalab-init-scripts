@@ -8,13 +8,15 @@ git clone --depth 1 https://github.com/France-Sport/${REPO_GIT}.git
 
 # Donner les droits au dossier à l'utilisateur
 chown -R onyxia:users ${REPO_GIT}/
+chmod 744 general/install-driver-sqlserver.sh
 cd $REPO_GIT
 
 # Installer des packages python
+pip install --upgrade pip
 pip install -r inputs/requirements-py
 
 # Installer un driver pour SQL Server
-general/install-driver-sqlserver.sh
+./general/install-driver-sqlserver.sh
 
 # Supprimer le repo
 cd ..

@@ -11,6 +11,7 @@ cd $REPO_GIT
 
 # Installer des packages python
 pip install -r inputs/requirements-py
+pip install --upgrade pip
 
 # Supprimer le repo
 cd ..
