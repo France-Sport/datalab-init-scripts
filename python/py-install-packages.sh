@@ -12,8 +12,8 @@ chown -R onyxia:users ${REPO_GIT}/
 cd $REPO_GIT
 
 # Installer des packages python
-pip install -r inputs/requirements-py
 pip install --upgrade pip
+pip install -r inputs/requirements-py
 
 # Supprimer le repo
 cd ..
